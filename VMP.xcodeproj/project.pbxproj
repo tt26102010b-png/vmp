@@ -1,0 +1,197 @@
+// !$*UTF8*$!
+{
+ archiveVersion = 1;
+ classes = {
+ };
+ objectVersion = 56;
+ objects = {
+
+/* Begin PBXBuildFile section */
+		A1B2C3D40000000000000101 /* VMPApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D40000000000000201 /* VMPApp.swift */; };
+		A1B2C3D40000000000000102 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D40000000000000202 /* Models.swift */; };
+		A1B2C3D40000000000000103 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D40000000000000203 /* RootView.swift */; };
+		A1B2C3D40000000000000104 /* PlayerStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D40000000000000204 /* PlayerStore.swift */; };
+		A1B2C3D40000000000000105 /* TrackCatalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D40000000000000205 /* TrackCatalog.swift */; };
+		A1B2C3D40000000000000106 /* LibraryStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D40000000000000206 /* LibraryStore.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A1B2C3D40000000000000200 /* VMP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VMP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1B2C3D40000000000000201 /* VMPApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VMPApp.swift; sourceTree = "<group>"; };
+		A1B2C3D40000000000000202 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		A1B2C3D40000000000000203 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		A1B2C3D40000000000000204 /* PlayerStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerStore.swift; sourceTree = "<group>"; };
+		A1B2C3D40000000000000205 /* TrackCatalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackCatalog.swift; sourceTree = "<group>"; };
+		A1B2C3D40000000000000206 /* LibraryStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryStore.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1B2C3D40000000000000301 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = ();
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A1B2C3D40000000000000400 = {
+			isa = PBXGroup;
+			children = (
+				A1B2C3D40000000000000401 /* VMP */,
+				A1B2C3D40000000000000402 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A1B2C3D40000000000000401 /* VMP */ = {
+			isa = PBXGroup;
+			children = (
+				A1B2C3D40000000000000201 /* VMPApp.swift */,
+				A1B2C3D40000000000000202 /* Models.swift */,
+				A1B2C3D40000000000000203 /* RootView.swift */,
+				A1B2C3D40000000000000204 /* PlayerStore.swift */,
+				A1B2C3D40000000000000205 /* TrackCatalog.swift */,
+				A1B2C3D40000000000000206 /* LibraryStore.swift */,
+			);
+			path = VMP;
+			sourceTree = "<group>";
+		};
+		A1B2C3D40000000000000402 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1B2C3D40000000000000200 /* VMP.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A1B2C3D40000000000000501 /* VMP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1B2C3D40000000000000601 /* Build configuration list for PBXNativeTarget "VMP" */;
+			buildPhases = (
+				A1B2C3D40000000000000302 /* Sources */,
+				A1B2C3D40000000000000301 /* Frameworks */,
+				A1B2C3D40000000000000303 /* Resources */,
+			);
+			buildRules = ();
+			dependencies = ();
+			name = VMP;
+			productName = VMP;
+			productReference = A1B2C3D40000000000000200 /* VMP.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1B2C3D40000000000000701 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					A1B2C3D40000000000000501 = { CreatedOnToolsVersion = 26.0; };
+				};
+			};
+			buildConfigurationList = A1B2C3D40000000000000602 /* Build configuration list for PBXProject "VMP" */;
+			compatibilityVersion = "Xcode 16.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (en, ru, Base);
+			mainGroup = A1B2C3D40000000000000400;
+			productRefGroup = A1B2C3D40000000000000402 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (A1B2C3D40000000000000501 /* VMP */);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1B2C3D40000000000000303 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = ();
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1B2C3D40000000000000302 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1B2C3D40000000000000101 /* VMPApp.swift in Sources */,
+				A1B2C3D40000000000000102 /* Models.swift in Sources */,
+				A1B2C3D40000000000000103 /* RootView.swift in Sources */,
+				A1B2C3D40000000000000104 /* PlayerStore.swift in Sources */,
+				A1B2C3D40000000000000105 /* TrackCatalog.swift in Sources */,
+				A1B2C3D40000000000000106 /* LibraryStore.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A1B2C3D40000000000000801 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = VMP;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UIBackgroundModes = (audio);
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.personal.VMP;
+				PRODUCT_NAME = VMP;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A1B2C3D40000000000000802 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = VMP;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UIBackgroundModes = (audio);
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.personal.VMP;
+				PRODUCT_NAME = VMP;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A1B2C3D40000000000000803 /* Project Debug */ = {isa = XCBuildConfiguration; buildSettings = { }; name = Debug; };
+		A1B2C3D40000000000000804 /* Project Release */ = {isa = XCBuildConfiguration; buildSettings = { }; name = Release; };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1B2C3D40000000000000601 /* Build configuration list for PBXNativeTarget "VMP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (A1B2C3D40000000000000801, A1B2C3D40000000000000802);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1B2C3D40000000000000602 /* Build configuration list for PBXProject "VMP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (A1B2C3D40000000000000803, A1B2C3D40000000000000804);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A1B2C3D40000000000000701 /* Project object */;
+}

@@ -1,0 +1,36 @@
+name: Build VMP iOS
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: macos-15
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Build unsigned iOS app
+        run: |
+          xcodebuild \
+            -project VMP.xcodeproj \
+            -scheme VMP \
+            -sdk iphoneos \
+            -configuration Release \
+            -derivedDataPath build \
+            CODE_SIGNING_ALLOWED=NO \
+            CODE_SIGNING_REQUIRED=NO \
+            DEVELOPMENT_TEAM="" \
+            build
+
+      - name: Package app
+        run: |
+          mkdir -p Payload
+          cp -R build/Build/Products/Release-iphoneos/VMP.app Payload/
+          zip -r VMP-unsigned.ipa Payload
+
+      - name: Upload IPA
+        uses: actions/upload-artifact@v4
+        with:
+          name: VMP-unsigned-ipa
+          path: VMP-unsigned.ipa
